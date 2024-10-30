@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "meta-locker/callout",
+	"version": "1.0.5",
+	"title": "MetaLocker",
+	"category": "design",
+	"icon": "visibility",
+	"description": "Content below this block will be hidden. Users have to connect their wallet to view the full content.",
+	"supports": {
+		"html": false
+	},
+	"keywords": [
+		"locker",
+		"callout",
+		"metalocker",
+		"visibility"
+	],
+	"textdomain": "meta-locker",
+	"editorStyle": "meta-locker-block-editor",
+	"editorScript": "meta-locker-block-editor",
+	"attributes": {
+		"noEmail": {
+			"type": "boolean",
+			"default": false
+		}
+	}
+}
